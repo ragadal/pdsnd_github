@@ -16,7 +16,7 @@ I have used three csv files provided by Udacity called,
 - Washington.csv
 
 ### Credits
-I have used this repo to fork and complete this project: https://github.com/udacity/pdsnd_github
+I have forked this to complete the project: https://github.com/udacity/pdsnd_github
 
 ###Disclaimer
 Data and project information were kindly provided by [Udacity](https://www.udacity.com/).
