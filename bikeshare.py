@@ -30,7 +30,7 @@ def get_filters():
         else:
             break
 
-    # get user input for month (all, january, february, ... , june)
+    # get user input for month (all, january, february-june)
     while True:
         month = input("Which month are you interested in?\nKeep in mind we have the first six months data avaliable: January, February, March, April, May, June or type 'all'!\n")
         # make input case-insensitive
