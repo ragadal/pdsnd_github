@@ -8,6 +8,8 @@ CITY_DATA = { 'chicago': 'chicago.csv',
               'new york city': 'new_york_city.csv',
               'washington': 'washington.csv' }
 
+## WELCOME TO MY CODE!
+
 def get_filters():
     """
     Asks user to specify a city, month, and day to analyze.
@@ -31,7 +33,7 @@ def get_filters():
         else:
             break
 
-    # get user input for month (all, january, february, ... , june)
+    # get user input for month (all, january, february-june)
     while True:
         month = input("Which month are you interested in?\nKeep in mind we have the first six months data avaliable: January, February, March, April, May, June or type 'all'!\n")
         # make input case-insensitive
@@ -244,3 +246,5 @@ def main():
 
 if __name__ == "__main__":
 	main()
+
+###SHOUT-OUT: Thanks to one of the session leads: Israa for her help in understanding this project!
